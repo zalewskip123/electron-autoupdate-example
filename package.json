@@ -1,13 +1,13 @@
 {
   "name": "electronautoupdate",
-  "version": "0.1.10",
+  "version": "0.2.0",
   "author": "ZaninAndrea",
   "homepage": "./",
   "description": "An example of an autoupdating electron app",
   "repository": "https://github.com/zalewskip123/electron-autoupdate-example",
   "main": "electron.js",
   "dependencies": {
-    "electron-updater": "^2.10.1"
+    "electron-updater": "^2.23.3"
   },
   "scripts": {
     "build": "build --win",
@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "electron": "^1.7.5",
-    "electron-builder": "^19.20.1"
+    "electron-builder": "^19.56.2"
   }
 }
